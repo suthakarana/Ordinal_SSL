@@ -14,8 +14,6 @@ The framework is designed for five-stage diabetic retinopathy grading:
 
 **No DR → Mild → Moderate → Severe → Proliferative DR**
 
-OrdDist SSL supports multiple CNN and transformer backbones, including ResNet, MobileNetV2, EfficientNet, DenseNet, ShuffleNetV2, and Vision Transformer architectures.
-
 The implementation supports fully supervised and semi-supervised experiments, multi-seed evaluation, class-wise analysis, model selection using validation QWK, and comprehensive evaluation using Accuracy, Balanced Accuracy, Quadratic Weighted Kappa, F1-score, AUC, Precision, Recall, Sensitivity, Specificity, and Matthews Correlation Coefficient.
 
 OrdDist is intended for research on ordinal, imbalanced, and label-efficient medical image classification, particularly diabetic retinopathy grading.
