@@ -1,6 +1,6 @@
-Ordinal SSL is a semi-supervised learning framework for ordinal diabetic retinopathy classification from retinal fundus images. The method is designed to exploit the ordered nature of diabetic retinopathy severity while learning from both labeled and unlabeled data.
+Ordinal_SSL is a semi-supervised learning framework for ordinal diabetic retinopathy classification from retinal fundus images. The method is designed to exploit the ordered nature of diabetic retinopathy severity while learning from both labeled and unlabeled data.
 
-Unlike conventional semi-supervised classification methods that treat disease grades as independent categorical classes, OrdDist incorporates ordinal information into the learning process. The framework combines regression-based ordinal prediction with standard and class-weighted classification branches and uses their predictive distributions to estimate reliable confidence for unlabeled samples.
+Unlike conventional semi-supervised classification methods that treat disease grades as independent categorical classes, Ordinal_SSL incorporates ordinal information into the learning process. The framework combines regression-based ordinal prediction with standard and class-weighted classification branches and uses their predictive distributions to estimate reliable confidence for unlabeled samples.
 
 The model contains three complementary prediction branches:
 
@@ -16,4 +16,4 @@ The framework is designed for five-stage diabetic retinopathy grading:
 
 The implementation supports fully supervised and semi-supervised experiments, multi-seed evaluation, class-wise analysis, model selection using validation QWK, and comprehensive evaluation using Accuracy, Balanced Accuracy, Quadratic Weighted Kappa, F1-score, AUC, Precision, Recall, Sensitivity, Specificity, and Matthews Correlation Coefficient.
 
-Ordinal SSL is intended for research on ordinal, imbalanced, and label-efficient medical image classification, particularly diabetic retinopathy grading.
+Ordinal_SSL is intended for research on ordinal, imbalanced, and label-efficient medical image classification, particularly diabetic retinopathy grading.
